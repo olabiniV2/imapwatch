@@ -12,6 +12,7 @@ type accountInformation struct {
 	port              string
 	username          string
 	password          string
+	cmd               string
 }
 
 func parseConfiguration(file, name string) *accountInformation {
