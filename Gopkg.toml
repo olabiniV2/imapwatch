@@ -28,3 +28,11 @@
 [prune]
   go-tests = true
   unused-packages = true
+
+[[constraint]]
+  name = "github.com/emersion/go-imap"
+  version = "1.0.0"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/emersion/go-imap-idle"
